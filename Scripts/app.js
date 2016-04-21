@@ -1,15 +1,13 @@
 /// <reference path="../typings/tsd.d.ts" />
 
 // setup your IIFE (Immediately Invoked Function Expression)
-(function () {
+(function() {
 
     "use strict";
 
-
-$(document).ready(function() {
     //generate random numbers between 1 - 6
     $('#rollButton').click(function() {
-        console.log("works");
+        //console.log("works");
         
         var dieNum = (Math.floor(Math.random() * 6) + 1);
         $('#die1Image').attr('src', ('Content/images/die' + dieNum + '.png'));
@@ -23,6 +21,6 @@ $(document).ready(function() {
 
     });
 
-});
+
 
 });
