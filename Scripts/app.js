@@ -3,8 +3,8 @@
 // setup your IIFE (Immediately Invoked Function Expression)
 (function() {
 
-    //"use strict";
-    
+    "use strict";
+    alert("it works");
     //test button
 //     $( "button" ).click(function() {
 //   alert( "Handler for .click() called." );
