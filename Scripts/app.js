@@ -6,7 +6,7 @@
     "use strict";
 
     //generate random numbers between 1 - 6
-    $('#rollButton').click(function () {
+    $('#rollButton').click(function() {
         console.log("click worked");
         // set up variables
         $('#die1').val(Math.floor(Math.random() * 6) + 1);
