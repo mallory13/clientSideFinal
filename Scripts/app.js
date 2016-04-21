@@ -9,8 +9,8 @@
     $('#rollButton').click(function () {
         
         // set up variables
-        var die1 = $('#die1').val(Math.floor(Math.random() * 6) + 1);
-        var die2 = $('#die2').val(Math.floor(Math.random() * 6) + 1);
+        $('#die1').val(Math.floor(Math.random() * 6) + 1);
+        $('#die2').val(Math.floor(Math.random() * 6) + 1);
 
         //switch statement to show image matching number rolled on die1
         switch (die1) {
