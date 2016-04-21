@@ -20,7 +20,7 @@
         
         
         var dieNum2 = (Math.floor(Math.random() * 6) + 1);
-        $('#die2Image').attr('src', ('Content/images/die' + dieNum + '.png'));
+        $('#die2Image').attr('src', ('Content/images/die' + dieNum2 + '.png'));
         $('#die2Paragraph').text(dieNum2);
         
 
