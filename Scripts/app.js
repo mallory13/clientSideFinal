@@ -5,6 +5,8 @@
 
     "use strict";
 
+
+$(document).ready(function() {
     //generate random numbers between 1 - 6
     $('#rollButton').click(function() {
         console.log("works");
@@ -21,6 +23,6 @@
 
     });
 
-
+});
 
 });
