@@ -16,12 +16,12 @@
         
         var dieNum = (Math.floor(Math.random() * 6) + 1);
         $('#die1Image').attr('src', ('Content/images/die' + dieNum + '.png'));
-        $('#die1Paragraph').val(dieNum);
+        $('#die1Paragraph').text(dieNum);
         
         
         var dieNum2 = (Math.floor(Math.random() * 6) + 1);
         $('#die2Image').attr('src', ('Content/images/die' + dieNum + '.png'));
-        $('#die2Paragraph').val(dieNum2);
+        $('#die2Paragraph').text(dieNum2);
         
 
     });
