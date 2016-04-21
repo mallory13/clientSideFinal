@@ -7,10 +7,13 @@
 
     //generate random numbers between 1 - 6
     $('#rollButton').click(function () {
-        $('#die1') = $('#die1').val(Math.floor(Math.random() * 6) + 1);
+        
+        // set up variables
+        var die1 = $('#die1').val(Math.floor(Math.random() * 6) + 1);
+        var die2 = $('#die2').val(Math.floor(Math.random() * 6) + 1);
 
         //switch statement to show image matching number rolled on die1
-        switch ($('#die1')) {
+        switch (die1) {
             case 1:
                 //if number is 1 show the 1 die and change paragraph to 1
                 $('#die1Image').attr('src', 'Content/images/dieOne.png');
@@ -57,10 +60,10 @@
                 break;
         }
 
-        $('#die2') = $('#die2').val(Math.floor(Math.random() * 6) + 1);
+        
 
         //switch statement to show image matching number rolled on die2
-        switch ($('#die2')) {
+        switch (die2) {
             case 1:
                 //if number is 1 show the 1 die and change paragraph to 1
                 $('#die1Image').attr('src', 'Content/images/dieOne.png');
